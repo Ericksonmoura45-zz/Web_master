@@ -6,8 +6,8 @@
     <title> Testing! </title>
     <style> 
         body {
-            background-color: rgb(112, 109, 109);
-            color: rgb(0, 0, 0);
+            background-color: black;
+            color: gray;
         } 
      </style>
 
@@ -17,9 +17,13 @@
 
 <body>
 
+    <header>
+     <div id="superior">   <!-- Uso de divs com IDS para facilitar edição no CSS-->
     <h1>YAMAHA XTZ 250/660/1200 TÉNÉRÉ</h1>
     <hr>
     <h2>Algumas Informações sobre a lendária Máquina: </h2>
+     </div>
+     <div id="casdastro"> <!-- Uso de divs com IDS para facilitar edição no CSS-->
     <form action="processa.php" method="post">
         <label> ID: </label>
         <input type="text" name="texto1" placeholder="Digite aqui">
@@ -48,10 +52,11 @@
         <input type="checkbox" name="ck1" value="5"> Escapamento Esportivo<br>
 
         <input type="submit" value="enviar" name="submit">
-
-
+    </div>
    </form>
-    <p>
+    
+   <div id="motos"> <!-- Uso de divs com IDS para facilitar edição no CSS-->
+   <p>
         <h2> Modelos </h2><br>
         <p> Modelos disponíveis da XTZ TÉNÉRÉ </p>
     </p>
@@ -94,11 +99,10 @@
         </tr>
         <br>
     </table>
-
-    <header> </header>
-    <div>   Links: </div>
-    <p> Desenvolvedor: </p>
+</div>
     <a href="https://github.com/ericksonmoura45">Erickson Moura</a>
+
+</header>    
     <footer>  </footer>
 
 </body>    

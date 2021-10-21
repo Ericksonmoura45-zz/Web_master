@@ -3,6 +3,11 @@ head{
     font-family: "Helvetica Neue",;
     font-style:normal;
 }
+header{
+    background-color:brown;
+    height: 110px;
+    width: 90px;
+}
 body {
     font-family: Arial;
     font-style: italic;
@@ -17,4 +22,28 @@ h2 {
     background-color: white;
     font-style:normal;
     color: rgb(3, 3, 143);
-    } 
+    }
+*{
+    margin: 1;
+    padding: 0; 
+}
+footer{
+    clear:both; 
+    background-color: burlywood;
+}
+#div superior{
+    background-color: burlywood;
+    height: 10%;
+    width: 15%;
+}
+#div cadastro{
+    background-color: burlywood;
+    height: 15%;
+    width: 15%;
+    float: right;
+}
+#div motos{
+    background-color: gray;
+    min-height:70%;
+    width: 65%;
+}
