@@ -31,18 +31,18 @@ footer{
     clear:both; 
     background-color: burlywood;
 }
-#div superior{
+#superior{
     background-color: burlywood;
     height: 10%;
     width: 15%;
 }
-#div cadastro{
+#cadastro{
     background-color: burlywood;
     height: 15%;
     width: 15%;
     float: right;
 }
-#div motos{
+#motos{
     background-color: gray;
     min-height:70%;
     width: 65%;
